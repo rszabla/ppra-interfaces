@@ -53,3 +53,10 @@ python draw_pprA_contact_schemiatic.py -i pprA_residue_contacts.csv -o ./output_
 - SVG files for different interfaces (e.g., `intra_contacts.svg`, `P_contacts.svg`, `F_contacts.svg`, `S_contacts.svg`) saved to the specified output directory.
 
 *Note: Visualization settings such as colors, dimensions, and residue numbering references can still be modified directly within the Python script.*
+
+**Examples:**
+PprA intramolecular contacts:
+![Intra contacts](example_outputs/intra_contacts.svg)
+
+PprA F Interface:
+![F Interface](example_outputs/F_contacts.svg)
